@@ -4,7 +4,8 @@
     "cors": "^2.8.5",
     "express": "^4.17.1",
     "mongodb": "^4.0.1",
-    "mongoose": "^5.13.3"
+    "mongoose": "^5.13.3",
+    "nodemon": "^2.0.12"
   },
   "main": "index.js",
   "name": "marketing",
@@ -22,7 +23,7 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon index.ts"
+    "start": "npx nodemon index.ts"
   },
   "author": "Vinicius Dias <vinicius@dias.dev>",
   "license": "GPL-3.0-or-later",
